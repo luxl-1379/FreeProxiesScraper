@@ -3,7 +3,7 @@
     "id": 0,
     "remarks": "pojiezhiyuanjun/freev2",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0309.txt",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/0308.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -14,14 +14,6 @@
     "url": "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18",
     "update_method": "auto",
     "enabled": false
-  },
-  {
-    "id": 2,
-    "remarks": "xiyaowong/freeFQ",
-    "site": "https://github.com/xiyaowong/freeFQ",
-    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
-    "update_method": "auto",
-    "enabled": true
   },
   {
     "id": 3,
