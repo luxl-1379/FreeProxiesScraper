@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import json, re
 import requests
 
@@ -65,8 +65,8 @@ class update():
             url_end = '.txt'
             new_url = url_front + this_month + '/' + today + url_end
         if id == 0:
-            today = datetime.today().strftime('%m%d')
-            url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
+            today = datetime.strftime(datetime.now() - timedelta(1), '%m%d')
+            url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/'
             url_end = '.txt'
             new_url = url_front + today + url_end
 
